@@ -1,0 +1,40 @@
+footer{
+    background-color: $verde;
+    padding: 13px;
+
+    .footInfo{
+        font-size: 16px;
+
+        a{
+            color: $negro;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        a:hover{
+                color: #333;
+            }
+        .btnCont:hover{
+            transform: translate(10px);
+            transition: all 0.8s;
+        }
+        .btnCont{
+            transition: all 0.8s;
+        }
+    }
+    .footRedes{
+        font-size: 20px;
+        text-align: center;
+
+        i{
+            font-size: 36px;
+            text-indent: 25px;
+            text-align: center;
+            color: #333;
+            text-shadow: 0 0 4px $celesteoscuro;
+        }
+        i:hover{
+            color: $celesteoscuro;
+        }
+    }
+}
