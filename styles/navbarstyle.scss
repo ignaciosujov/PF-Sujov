@@ -1,6 +1,7 @@
 
 header{
-    position: fixed;
+    z-index: 1;
+    position:fixed;
     top: 0;
     width: 100%;
 }
@@ -13,12 +14,16 @@ header{
         font-size: 20px;
         background-color: $celeste;
         border-radius: 20px;
+        box-shadow: 0px 0px 5px 0px #3f3f3f;
         padding: 10px 20px;
         margin: 10px;
         display: inline-block;
+        transition: all 0.6s;
     }
     .navButtons:hover{
         background-color: $verde;
+        box-shadow: none;
+        transition: all 0.6s;
     }
     .navbar-toggler{
         color: $celeste;
